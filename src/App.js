@@ -1,4 +1,6 @@
 import React from "react";
+import TodoForm from "./components/todoForm";
+import TodoList from "./components/todoList";
 
 const App = () => {
   return (
@@ -6,10 +8,10 @@ const App = () => {
     <div className="containet ,t-4">
       <div className="row">
         <div className="col-8">
-          <h1>Lista de tareas</h1>
+          <TodoList/>
         </div>
         <div className="col-4">
-          <h1>Formulario</h1>
+          <TodoForm/>
         </div>
       </div>
     </div>

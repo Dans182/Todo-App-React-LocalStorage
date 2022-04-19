@@ -1,10 +1,11 @@
 import React from 'react';
 
-const TodoForm = () => {
 
+const TodoList = () => {
+    
     return(
         <h1>Soy TodoList</h1>
     )
 }
 
-export default TodoForm;
+export default TodoList;
