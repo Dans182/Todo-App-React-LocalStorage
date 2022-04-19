@@ -5,7 +5,7 @@ import TodoList from "./components/todoList";
 const App = () => {
   return (
     // <> -->fragment, es un contenedor padre
-    <div className="containet ,t-4">
+    <div className="container mt-4">
       <div className="row">
         <div className="col-8">
           <TodoList/>
